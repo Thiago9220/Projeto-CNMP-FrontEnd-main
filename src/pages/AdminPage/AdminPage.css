@@ -1,0 +1,63 @@
+/* AdminPage.css */
+.adminContent {
+  padding: 24px;
+}
+
+.adminForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.formGroup input,
+.formGroup textarea,
+.formGroup select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 16px;
+}
+
+.tab {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.tab.active {
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formColumn {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.formColumn:last-child {
+  margin-right: 0;
+}
